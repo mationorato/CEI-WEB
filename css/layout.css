@@ -1,0 +1,55 @@
+html{    
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa ;
+}
+body{
+    background-color: #f8f9fa;
+}
+
+.jumbotron {
+    background-color: #03734b;
+    color: #f8f9fa;
+    border-radius: 0px;
+}
+
+.header {
+    margin: 25px 0px;
+}
+
+.circle {
+    background: #00a1e5;
+    border-radius: 50%;
+    color: #f8f9fa;
+    height: 100px;
+    font-weight: bold;
+    width: 100px;
+    display: table;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.circle p {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 3.5rem;
+}
+
+.separator{
+    height: 15px;
+}
+.separator2{
+    height: 30px;
+}
+
+.hgray{
+    color: gray;
+}
+
+.hbrand{
+    color: #00a1e5;
+    font-weight: 600;
+}
+
+.a{
+    color: #00a1e5;
+}
+
