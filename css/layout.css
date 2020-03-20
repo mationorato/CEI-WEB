@@ -12,8 +12,8 @@ body{
     border-radius: 0px;
 }
 
-.header {
-    margin: 25px 0px;
+header {
+    padding: 25px 0px;
 }
 
 .circle {
@@ -59,4 +59,17 @@ body{
 
 .covid-color{
     color: #03734b;
+}
+
+footer{
+    background-color: #4a4a48;
+    color: #f8f9fa;
+    padding: 50px;  
+    font-size: 0.75rem;  
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
 }
