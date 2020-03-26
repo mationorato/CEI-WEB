@@ -52,25 +52,29 @@
         gtag('config', 'UA-160933757-1');
     </script>
 
-    
+
     <!-- Facebook Pixel Code -->
     <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '1091834761169082');
         fbq('track', 'PageView');
     </script>
     <noscript>
         <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=1091834761169082&ev=PageView&noscript=1"/>
+            src="https://www.facebook.com/tr?id=1091834761169082&ev=PageView&noscript=1" />
     </noscript>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -89,6 +93,36 @@
     <div class="separator"></div>
     <div class="container">
         <!-- Clases virtuales -->
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="alert alert-info alert-dismissible fade show" role="alert">
+                    <strong>Info 26/3/2020</strong>
+                    <hr>
+                    <h3 class="alert-heading">Alta de mails Fiuba :)</h3>
+                    <div class="separator"></div>
+                    <p>La facultad nos informa que ya se estan dando de alta las primeras cuentas solicitadas vía el
+                        formulario que publicamos en esta página.</p>
+                    <p>Hay más de 3000 pedidos, por lo que si todavía no encontras la tuya lo mas probable es que se de
+                        de alta a la brevedad.</p>
+                    <p>para ingresar a tu cuenta:</p>
+                    <p>ingresá a <a href="https://mail.google.com" target="blank">mail.google.com</a> <br>
+                        <b>usuario:</b> <a href="https://bit.ly/2QLhS2J" target="blank">buscaló en esta planillla</a>
+                        (de mesa de ayuda de fiuba).
+                        <br>
+                        <b>contraseña:</b> Tu DNI (sin puntos)
+                    </p>
+                    <p><i>(El sistema te a solicitar cambiar la clave en el primer inicio de sesión).</p></i>
+                    <p>Te recordamos que si ya llenaste el formulario, no hace falta que lo vuelvas a completar.
+                        Llenarlo mas de una vez solo generará mas complicaciones a la facultad a la hora de dar de alta
+                        tu cuenta.</p>
+                    <p>Una vez activada tu cuenta, <a href="#paso2">acordate seguir con el paso 2</a>.</p>
+                    <p>Cualquier duda recordá que nos podés escribir al chat.</p>
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-12">
                 <h1 class="hgray"> <i class="fas fa-desktop"></i>
@@ -140,8 +174,10 @@
                 </div>
             </div>
             <div class="col-sm-10">
-                <h2 class="hbrand">Actualizá tu mail en el campus</h2>
-                <p class="lead hgray"><i class="fas fa-calendar-alt"></i> Hasta el domingo 29/3</p>
+                <a name="paso2">
+                    <h2 class="hbrand">Actualizá tu mail en el campus</h2>
+                </a>
+                <p class="lead hgray"><i class="fas fa-calendar-alt"></i> En lo posible antes del domingo 29/3</p>
                 <p>Una vez activada tu cuenta FIUBA, registrala en tu perfil del campus.</p>
                 <p>Para realizar esta acción:</p>
                 <ol>
@@ -156,7 +192,8 @@
                 <div class="alert alert-warning" role="alert">
                     <i class="fas fa-exclamation-triangle" style="margin-right: 5px;"></i>
                     Para confirmar tu cambio de mail en el campus, accede al link que te tiene que haber llegado a tu
-                    cuenta FIUBA para confirmar la operación.
+                    cuenta FIUBA para confirmar la operación (puede ser que se demore el envío, si no te llego en un par
+                    de horas avisanos).
                 </div>
                 <div class="alert alert-primary" role="alert">
                     <i class="fas fa-info-circle" style="margin-right: 5px;"></i>
