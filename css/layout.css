@@ -50,6 +50,30 @@ header {
     height: 30px;
 }
 
+.bd {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+        border-left-color: rgb(238, 238, 238);
+        border-left-width: 1px;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+
+.bd-info {
+    border-left-color: #5bc0de;
+}
+.bd-warning {
+    border-left-color: #ffc107;
+}
+.bd-danger {
+    border-left-color: #dc3545;
+}
+.bd-success {
+    border-left-color: #28a745;
+}
+
 .hgray{
     color: gray;
 }
@@ -117,4 +141,8 @@ footer a{
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.fa-mr{
+    margin-right: 5px;
 }
