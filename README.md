@@ -2,7 +2,7 @@
 
 > Sitio web del Centro de Estudiantes de Ingeniería "La Linea Recta"
 
-[cei.fi.uba.ar](https://cei.fi.uba.ar)
+### [cei.fi.uba.ar](https://cei.fi.uba.ar)
 
 ## Para arrancar
 
