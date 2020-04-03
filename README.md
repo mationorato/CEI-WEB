@@ -1,3 +1,22 @@
-# FIUBA / Contingencia COVID-19
+# Website del CEI
 
-Sitio de ayuda e información para estudiantes sobre las medidas tomadas por la pandamia del coronavirus.
+> Sitio web del Centro de Estudiantes de Ingeniería "La Linea Recta"
+
+[cei.fi.uba.ar](https://cei.fi.uba.ar)
+
+## Para arrancar
+
+### Development
+```console
+npm install
+npm run dev
+```
+
+### Production
+```console
+npm install
+npm run build
+npm run start
+```
+
+ir a [http://localhost:3000](http://localhost:3000)
