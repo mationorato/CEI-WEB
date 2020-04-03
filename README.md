@@ -7,13 +7,13 @@
 ## Para arrancar
 
 ### Development
-```console
+```properties
 npm install
 npm run dev
 ```
 
 ### Production
-```console
+```properties
 npm install
 npm run build
 npm run start
