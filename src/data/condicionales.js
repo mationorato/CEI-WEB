@@ -44,7 +44,7 @@ const pagina = () => (
             <div className="col-sm-12">
                 <p className="lead">
                     Para todos los estudiantes que estén inscriptos como condicionales o los que deseen realizar un cambio de curso,
-                    deben completar <a href="https://campus.fi.uba.ar/course/view.php?id=1007&section=13" target="blank">el siguiente formulario del campus</a>
+                    deben completar <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx9_F4Y1C4wjxRyNAKWqsmM2w0KHsv3msRKcd2_kjUXDVNFQ/viewform" target="blank">el siguiente formulario</a>
                 </p>
                 <p className="lead">
                     Los cambios de cursos deben estar justificados y el departamento toma en consideración el motivo para realizarlos.
@@ -101,7 +101,7 @@ const pagina = () => (
                 </p>
                 <div className="alert alert-warning" role="alert">
                     <i className="fas fa-exclamation-triangle fa-mr"></i>
-                    Los pedidos se pueden realizar hasta el martes 7 de abril inclusive.
+                    Los pedidos de computación se pueden realizar hasta el martes 7 de abril inclusive.
                 </div>
             </div>
         </div>
