@@ -1,4 +1,5 @@
 import dynamic from 'next/dynamic'
+import Head from 'next/head'
 import { Jumbotron, Container } from 'react-bootstrap';
 import Layout from '../../components/layout';
 import colors from '../../components/layout/colors'
@@ -11,6 +12,12 @@ export default function Anuncio(props) {
 
     return (
         <Layout>
+            <Head>
+                <title key="title">CEI UBA - {props.anuncio.titulo}</title>
+                <meta property="og:title" key="og:title" content={props.anuncio.titulo} />
+                <meta property="og:description" key="og:description" content={props.anuncio.bajada} />
+                <meta property="og:url" key="og:url" content={`https://cei.fi.uba.ar/a/${props.anuncio.id}`} />
+            </Head>
             <div >
                 <Jumbotron>
                     <Container>

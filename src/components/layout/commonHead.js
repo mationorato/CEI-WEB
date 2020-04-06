@@ -2,30 +2,49 @@ import Head from 'next/head'
 
 export default function CommonHead() {
     return (
-        <Head>        
+        <Head>
             <meta httpEquiv="content-type" content="text/html; charset=UTF-8" />
             <meta charSet="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+            {/* INFO */}
+            <title key="title">CEI UBA</title>
+            <meta name="description" key="description" content="Centro de estudiantes de Ingeniería La Linea Recta" />
+            <meta name="keywords" content="fiuba,estudainte ingeniería,ingeniería uba,uba,centro de estudiantes,cei" />
+
+            {/* Open Fraph */}
+            <meta property="og:title" key="og:title" content="CEI UBA" />
+            <meta property="og:description" key="og:description" content="Centro de estudiantes de Ingeniería La Linea Recta" />
+            <meta property="og:image" key="og:image" content="https://i.imgur.com/8UlV9Xg.jpg" />
+            <meta property="og:url" key="og:url" content="https://cei.fi.uba.ar" />
+            <meta property="og:image:type" key="og:image:type" content="image/jpeg" />
+            <meta property="og:image:width" key="og:image:width" content="1200" />
+            <meta property="og:image:height" key="og:image:height" content="628" />
+            <meta property="og:type" key="og:type" content="article" />
+            <meta property="fb:app_id" key="fb:app_id" content="138179346792288" />
+
+            {/* Favicon */}
+            <link rel="shortcut icon" href="/img/favicon.png" />
+
             {/* Fonts */}
-            <link 
-                href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" 
-                rel="stylesheet"/>
-            <script 
-                src="https://kit.fontawesome.com/2d58059109.js" 
+            <link
+                href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap"
+                rel="stylesheet" />
+            <script
+                src="https://kit.fontawesome.com/2d58059109.js"
                 crossOrigin="anonymous"></script>
-            <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet"/>
-            <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet"/>
-            <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet"/>
+            <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet" />
+            <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet" />
+            <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" />
 
             {/* Bootstrap */}
-            <link 
-                rel="stylesheet" 
+            <link
+                rel="stylesheet"
                 href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-                integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
-                crossOrigin="anonymous"/>
+                integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+                crossOrigin="anonymous" />
 
-            {/* crisp.chat */}            
+            {/* crisp.chat */}
             <script src="/scripts/crisp.js"></script>
 
             {/* Global site tag (gtag.js) - Google Analytics */}

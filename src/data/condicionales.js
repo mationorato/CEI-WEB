@@ -13,7 +13,7 @@ const pagina = () => (
         <div className="row">
             <div className="col-sm-12">
                 <p className="lead">
-                    Tenés que descarrgar y completar <a href="https://campus.fi.uba.ar/course/view.php?id=1439" target="blank">los siguiente formularios</a> indicando
+                    Tenés que descarrgar y completar <a href="https://campus.fi.uba.ar/course/view.php?id=1439" target="blank">los siguientes formularios</a> indicando
                     al menos dos opciones de días y horarios posibles para cursar.
                 </p>
                 <p className="lead">
@@ -42,13 +42,19 @@ const pagina = () => (
         </div>
         <div className="row">
             <div className="col-sm-12">
+                <h3 className="hgray">Física I</h3>
                 <p className="lead">
                     Para todos los estudiantes que estén inscriptos como condicionales o los que deseen realizar un cambio de curso,
-                    deben completar <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx9_F4Y1C4wjxRyNAKWqsmM2w0KHsv3msRKcd2_kjUXDVNFQ/viewform" target="blank">el siguiente formulario</a>
-                </p>
-                <p className="lead">
+                    deben completar los siguientes formularios:
+                    <br />
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeb2v7T8QZMsuJCYqiHQJLQeEmwnqRr3ifMG0yx6xK9_LlUgg/viewform" target="blank">Asignación Condicionales</a> <br />
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx9_F4Y1C4wjxRyNAKWqsmM2w0KHsv3msRKcd2_kjUXDVNFQ/viewform" target="blank">Cambios de cursos</a>
+                    <br /> <br />
                     Los cambios de cursos deben estar justificados y el departamento toma en consideración el motivo para realizarlos.
-                    Para la realización de cambios de cursos en Física 2 se debe contactar a la coordinación por mail:
+                </p>
+                <h3 className="hgray">Física II</h3>
+                <p className="lead">
+                    Para la realización de cambios de cursos y condicionales de Física 2 se deben contactar a la coordinación por mail:
                     <a href="mailto:estudiantes.fii.fiuba@gmail.com" target="blank"> estudiantes.fii.fiuba@gmail.com</a>
                 </p>
                 <p className="lead">

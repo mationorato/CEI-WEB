@@ -2,28 +2,28 @@ const anuncios = [
     {
         id: "condicionales",
         titulo: "Información Condicionales 1C 2020",
-        bajada: "Guía de que hacer en los principales deptos si te toco anotarte como condicional",
+        bajada: "Guía de que hacer en los principales deptos si te toco anotarte como condicional.",
         fecha: "6/4/2020",
         color: "#eb7700"
     },
     {
         id: "cursadavirtual",
         titulo: "Inicio de la cursada virtual",
-        bajada: "En Fiuba arrancamos a cursar de forma virtual el 13/4",
+        bajada: "En Fiuba arrancamos a cursar de forma virtual el 13/4.",
         fecha: "4/4/2020",
         color: "#860063"
     },
     {
         id: "infomails",
         titulo: "Alta de Mails Fiuba",
-        bajada: "Buscá tu nuevo mail fiuba y mirá las preguntas frecuentes",
+        bajada: "Buscá tu nuevo mail fiuba y mirá las preguntas frecuentes.",
         fecha: "28/3/2020",
         color: "#24408e"
     },
     {
         id: "mequedoencasa",
         titulo: "Plan contra el Coronavirus",
-        bajada: "Prórrogas autámaticas, correlativas sin rendir final y pasos para prepararte para la cursada virtual",
+        bajada: "Prórrogas autámaticas, correlativas sin rendir final y pasos para prepararte para la cursada virtual.",
         fecha: "21/3/2020",
         color: "#03734b"
     }
