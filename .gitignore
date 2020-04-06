@@ -118,3 +118,6 @@ dist
 
 # Visual studio code confif
 .vscode
+
+#deploy powershell
+deploy.ps1

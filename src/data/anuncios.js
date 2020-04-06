@@ -1,11 +1,11 @@
 const anuncios = [
-    // {
-    //     id: "condicionales",
-    //     titulo: "Info Condicionales 1C 2020",
-    //     bajada: "Guía de que hacer en cada depto si te toco anotarte como condicional",
-    //     fecha: "6/4/2020",
-    //     color: "#eb7700"
-    // },
+    {
+        id: "condicionales",
+        titulo: "Info Condicionales 1C 2020",
+        bajada: "Guía de que hacer en los principales deptos si te toco anotarte como condicional",
+        fecha: "6/4/2020",
+        color: "#eb7700"
+    },
     {
         id: "cursadavirtual",
         titulo: "Inicio de la cursada virtual",
