@@ -1,4 +1,5 @@
-import { Container,Row, Col, Image } from 'react-bootstrap';
+import Link from 'next/link';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 
 export default function Header() {
     return (
@@ -6,7 +7,12 @@ export default function Header() {
             <Container>
                 <Row>
                     <Col>
-                        <Image src="img/logocei.png" fluid/>
+                        <Link href="/">
+                            <a>
+                                <Image src="/img/logocei.png" fluid />
+                            </a>
+                        </Link>
+
                     </Col>
                 </Row>
             </Container>

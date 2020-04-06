@@ -14,7 +14,10 @@ export default function CommonHead() {
             <script 
                 src="https://kit.fontawesome.com/2d58059109.js" 
                 crossOrigin="anonymous"></script>
-            
+            <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet"/>
+            <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet"/>
+            <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet"/>
+
             {/* Bootstrap */}
             <link 
                 rel="stylesheet" 
@@ -23,14 +26,14 @@ export default function CommonHead() {
                 crossOrigin="anonymous"/>
 
             {/* crisp.chat */}            
-            <script src="scripts/crisp.js"></script>
+            <script src="/scripts/crisp.js"></script>
 
             {/* Global site tag (gtag.js) - Google Analytics */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160933757-1"></script>
-            <script src="scripts/analytics.js"></script>
+            <script src="/scripts/analytics.js"></script>
 
             {/* Facebook Pixel Code */}
-            <script src="scripts/pixel.js"></script>
+            <script src="/scripts/pixel.js"></script>
         </Head>
     )
 }

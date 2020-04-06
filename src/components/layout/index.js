@@ -3,15 +3,15 @@ import Header from './header';
 import Footer from './footer';
 import Colors from './colors';
 
-export default function Layout(props){
-    return(
+export default function Layout(props) {
+    return (
         <main>
             <CommonHead />
-            <Header/>
+            <Header />
             <section>
-                {props.children} 
-            </section>  
-            <Footer/>
+                {props.children}
+            </section>
+            <Footer />
             <style jsx global>{`
                 html{    
                     font-family: 'Roboto', sans-serif;
@@ -20,7 +20,7 @@ export default function Layout(props){
                 body{
                     background-color: ${Colors.white};
                 }
-            `}</style>         
+            `}</style>
         </main>
     )
 }
