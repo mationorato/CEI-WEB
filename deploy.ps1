@@ -1,1 +1,0 @@
-ssh ubuntu@3.224.52.74 "cd /var/www/coronavirus-fiuba; sudo git pull"
