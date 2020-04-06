@@ -22,8 +22,8 @@ const anuncios = [
     },
     {
         id: "mequedoencasa",
-        titulo: "Plan contra el COVID",
-        bajada: "Prórrogas autámaticas, correlativas sin rendir final y pasos para preparate para la cursada virtual",
+        titulo: "Plan contra el Coronavirus",
+        bajada: "Prórrogas autámaticas, correlativas sin rendir final y pasos para prepararte para la cursada virtual",
         fecha: "21/3/2020",
         color: "#03734b"
     }
