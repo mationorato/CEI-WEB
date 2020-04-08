@@ -103,12 +103,43 @@ const pagina = () => (
                     Los estudiantes que se hayan anotado en materias del Departamento de Computación en el primer cuatrimestre de 2020
                     y que estén inscriptos como condicionales o deseen realizar un cambio de curso, deben completar
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQQuw_qTXNfevhjQvoITKHsGtxNPjx8eBrcYYRfqf3nfHDkg/viewform" target="nlank"> este formulario</a>
-
                 </p>
                 <div className="alert alert-warning" role="alert">
                     <i className="fas fa-exclamation-triangle fa-mr"></i>
                     Los pedidos de computación se pueden realizar hasta el martes 7 de abril inclusive.
                 </div>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-sm-12">
+                <h1 className="hgray">Otros departamentos</h1>
+                <div className="separator"></div>
+                <hr />
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-sm-12">
+                <p className="lead">Para el resto de los departamentos comunicate directamente al mail correspondiente</p>
+            </div>
+        </div>
+        <div className="row">
+            <div className="col-md-6">
+                <p className="lead">Construcciones: <a href="mailto:depto.cye@fi.uba.ar">depto.cye@fi.uba.ar</a></p>
+                <p className="lead">Electrónica: <a href="mailto:electron@fi.uba.ar">electron@fi.uba.ar</a></p>
+                <p className="lead">Agrimensura: <a href="mailto:agrimen@fi.uba.ar">agrimen@fi.uba.ar</a></p>
+                <p className="lead">Energía: <a href="mailto:depto_energia@fi.uba.ar">depto_energia@fi.uba.ar</a></p>
+                <p className="lead">Estabilidad: <a href="mailto:estabil@fi.uba.ar">estabil@fi.uba.ar</a></p>
+                <p className="lead">Gestión: <a href="mailto:economia@fi.uba.ar">economia@fi.uba.ar</a></p>
+                <p className="lead">Hidráulica: <a href="mailto:hidrau@fi.uba.ar">hidrau@fi.uba.ar</a></p>
+            </div>
+            <div className="col-md-6">
+                <p className="lead">Idiomas: <a href="mailto:idiomas@fi.uba.ar ">idiomas@fi.uba.ar</a> </p>
+                <p className="lead">Ingeniería Mecanica: <a href="mailto:mecanica@fi.uba.ar">mecanica@fi.uba.ar</a></p>
+                <p className="lead">Ingeniería Naval: <a href="mailto:dindir@fi.uba.ar  ">dindir@fi.uba.ar</a>  </p>
+                <p className="lead">Ingeniería Química: <a href="mailto:deptoiq@di.fcen.uba.ar ">deptoiq@di.fcen.uba.ar</a> </p>
+                <p className="lead">Seguridad del Trabajo y Ambiente: <a href="mailto:diat@fi.uba.ar">diat@fi.uba.ar</a></p>
+                <p className="lead">Tecnología Industrial: <a hfer="mailto: tecnologiaindustrial@fi.uba.ar">tecnologiaindustrial@fi.uba.ar</a></p>
+                <p className="lead">Transporte: <a href="mailto:transporte@fi.uba.ar">transporte@fi.uba.ar</a></p>
             </div>
         </div>
     </div>

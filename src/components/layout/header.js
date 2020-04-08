@@ -21,6 +21,10 @@ export default function Header() {
                 header{
                     padding: 25px 0px;
                 }
+
+                a :global(img){
+                    max-height: 100px
+                }
             `}</style>
         </header>
     )
