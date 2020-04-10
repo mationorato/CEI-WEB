@@ -1,5 +1,12 @@
 const anuncios = [
     {
+        id: "encuesta-acceso",
+        titulo: "Encuesta: Acceso a las Herramientas Virtuales",
+        bajada: "Relevamiento para ayudar a los estudiantes que no cuenten con las herramientas necesarias para cursar de forma virtual",
+        fecha: "10/4/2020",
+        color: "#0081c9"
+    },
+    {
         id: "condicionales",
         titulo: "Información Condicionales 1C 2020",
         bajada: "Guía de que hacer en los principales deptos si te toco anotarte como condicional.",

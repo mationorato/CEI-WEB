@@ -40,9 +40,11 @@ export default function Anuncio(props) {
                 p{
                     margin-bottom: 0px;
                 }
+
                 div :global(.separator){
                     height: 15px;
                 }
+                
                 div :global(.separator2){
                     height: 30px;
                 }
@@ -62,9 +64,11 @@ export default function Anuncio(props) {
                 div :global(.bd-info) {
                     border-left-color: #5bc0de;
                 }
+
                 div :global(.bd-warning) {
                     border-left-color: #ffc107;
                 }
+
                 div :global(.bd-danger) {
                     border-left-color: #dc3545;
                 }
@@ -90,7 +94,6 @@ export default function Anuncio(props) {
                     text-decoration: none;
                 }
 
-
                 div :global(.brand-color){
                     color: #0f90d1;
                 }
@@ -98,9 +101,11 @@ export default function Anuncio(props) {
                 div :global(.covid-color){
                     color: #03734b;
                 }
+
                 div :global(.fa-mr){
                     margin-right: 5px;
                 }
+
                 div :global(.fa-mr-h){
                     margin-right: 15px;
                 }
