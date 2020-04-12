@@ -45,7 +45,7 @@ export default function CommonHead() {
                 crossOrigin="anonymous" />
 
             {/* crisp.chat */}
-            <script src="/scripts/crisp.js"></script>
+            {/* <script src="/scripts/crisp.js"></script> */}
 
             {/* Global site tag (gtag.js) - Google Analytics */}
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160933757-1"></script>

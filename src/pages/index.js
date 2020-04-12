@@ -1,20 +1,24 @@
-import {Container} from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Layout from '../components/layout';
 import AnuncioLink from '../components/home/anuncioLink';
-import anuncios from '../data/anuncios' 
+import anuncios from '../data/anuncios'
 
 export default function Index(props) {
-    
-    return (        
+
+    return (
         <Layout>
-            <Container>                                
-                <div className="anuncios">                    
+            <Container>
+                <div className="anuncios">
                     <img src="/img/anuncio.svg"></img>
-                    <h1>Anuncios</h1>                    
+                    <h1>Anuncios</h1>
                 </div>
-                {props.anuncios.map(anuncio => 
-                    <AnuncioLink key={anuncio.id} anuncio={anuncio}/>
-                )}           
+                <div className="row">
+                    {props.anuncios.map(anuncio =>
+                        <div className="col-lg-4">
+                            <AnuncioLink key={anuncio.id} anuncio={anuncio} />
+                        </div>
+                    )}
+                </div>
             </Container>
             <style jsx>{`
                 .anuncios{
