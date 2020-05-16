@@ -7,7 +7,8 @@ import {
 import {
     faEnvelopeSquare,
     faRobot,
-    faArrowLeft
+    faArrowLeft,
+    faPoll
 } from '@fortawesome/free-solid-svg-icons'
 
 export default function faLibraryInit() {
@@ -16,6 +17,7 @@ export default function faLibraryInit() {
         faInstagramSquare,
         faEnvelopeSquare,
         faRobot,
-        faArrowLeft
+        faArrowLeft,
+        faPoll
     )
 }

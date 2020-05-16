@@ -8,14 +8,15 @@ export default function Index(props) {
     return (
         <Layout>
             <Container>
+                {process.env.CeiApiKey__Academica}
                 <div className="anuncios">
                     <img src="/img/anuncio.svg"></img>
                     <h1>Anuncios</h1>
                 </div>
                 <div className="row">
                     {props.anuncios.map(anuncio =>
-                        <div className="col-lg-4">
-                            <AnuncioLink key={anuncio.id} anuncio={anuncio} />
+                        <div className="col-lg-4" key={anuncio.id}>
+                            <AnuncioLink anuncio={anuncio} />
                         </div>
                     )}
                 </div>

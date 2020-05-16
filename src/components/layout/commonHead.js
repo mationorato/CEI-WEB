@@ -9,8 +9,10 @@ export default function CommonHead() {
 
             {/* INFO */}
             <title key="title">CEI UBA</title>
-            <meta name="description" key="description" content="Centro de estudiantes de Ingeniería La Linea Recta" />
-            <meta name="keywords" content="fiuba,estudainte ingeniería,ingeniería uba,uba,centro de estudiantes,cei" />
+            <meta name="title" content="Centro de Estudiantes de Ingeniería" />
+            <meta name="description" key="description" content="Centro de estudiantes de La facultad de ingeniería de la UBA" />
+            <meta name="keywords" content="fiuba,estudaintes ingeniería,ingeniería uba,uba,centro de estudiantes,cei" />
+            <meta name="google-site-verification" content="6t2hDxsOpMM7QybXdCYkMUQz874vPVBe6A3CTkTp4nw" />
 
             {/* Open Fraph */}
             <meta property="og:title" key="og:title" content="CEI UBA" />
@@ -27,14 +29,7 @@ export default function CommonHead() {
             <link rel="shortcut icon" href="/img/favicon.png" />
 
             {/* Fonts */}
-            <link
-                href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap"
-                rel="stylesheet" />
-            <script
-                src="https://kit.fontawesome.com/2d58059109.js"
-                crossOrigin="anonymous"></script>
-            <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet" />
-            <link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet" />
             <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" />
 
             {/* Bootstrap */}

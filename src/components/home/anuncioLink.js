@@ -5,7 +5,7 @@ import colors from '../layout/colors';
 function AnuncioLink({ anuncio }) {
     return (
         <div>
-            <Link href="a/[id]" as={`a/${anuncio.id}`}>
+            <Link href="anuncios/[id]" as={`anuncios/${anuncio.id}`}>
                 <a>
                     <Jumbotron>
                         <p className="lead">{anuncio.fecha}</p>

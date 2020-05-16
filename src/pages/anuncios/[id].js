@@ -77,7 +77,7 @@ export default function Anuncio(props) {
                 }
 
                 div :global(.hgray){
-                    color: gray;
+                    color: ${colors.black};
                 }
 
                 div :global(.hbrand){
