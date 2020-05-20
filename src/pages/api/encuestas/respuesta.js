@@ -1,4 +1,3 @@
-import fetch from 'isomorphic-unfetch'
 import { options, url } from '../../../utils/rest'
 import validateReCAPTCHA from '../../../utils/recaptcha'
 

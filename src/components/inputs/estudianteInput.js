@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import fetch from 'isomorphic-unfetch';
 import { Input, Button } from 'antd';
 import { UserOutlined, CheckOutlined, CloseOutlined } from '@ant-design/icons';
 import { green, red, grey } from '@ant-design/colors';

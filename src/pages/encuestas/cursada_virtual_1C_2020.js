@@ -1,4 +1,3 @@
-import fetch from 'isomorphic-unfetch'
 import Head from 'next/head'
 import { Jumbotron, Container, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

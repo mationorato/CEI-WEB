@@ -1,4 +1,3 @@
-import fetch from 'isomorphic-unfetch'
 import { options, url } from '../../../utils/rest'
 
 export default async (req, res) => {
