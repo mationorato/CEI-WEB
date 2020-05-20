@@ -32,6 +32,9 @@ export default function CommonHead() {
             <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet" />
             <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" />
 
+            {/* Emojis */}
+            <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
+
             {/* Bootstrap */}
             <link
                 rel="stylesheet"

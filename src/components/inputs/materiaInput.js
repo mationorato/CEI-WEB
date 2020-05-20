@@ -58,12 +58,13 @@ export default function MateriaInput({ setter, inputId = false, inputCodigo = fa
             {
                 !success ?
                     <AutoComplete
-                        size="large"
+                        size={"large"}
                         options={busqueda}
                         onSearch={autoCompleteMaterias}
                         onSelect={(val, option) => { setMateria(option.materia); setSuccess(true) }}
                         notFoundContent={"no se encontró ningún resultado"}
-                        style={{ width: "100%" }}>
+                        style={{ width: "100%" }}
+                        autoFocus>
                         <Input.Search
                             size="large"
                             placeholder="buscá por código, nombre o docente"
@@ -78,7 +79,7 @@ export default function MateriaInput({ setter, inputId = false, inputCodigo = fa
                                 <CloseOutlined className="clearBtn" onClick={clearInput} />
                             </>
                         }
-                        size="large"
+                        size={"large"}
                         value={materia.nombre}
                         addonBefore={`Código : ${materia.codigo}`} />
             }

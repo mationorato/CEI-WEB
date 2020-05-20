@@ -39,7 +39,7 @@ export default function ({ encuesta }) {
                         Date.now() > encuesta.fecha_apertura && Date.now() < encuesta.fecha_cierre ?
                             <Encuesta encuesta={encuesta} /> :
                             <Alert variant="danger">
-                                La encuesta se encuentra abierta
+                                La encuesta se encuentra cerrada :(
                             </Alert>
                     }
                 </Container>

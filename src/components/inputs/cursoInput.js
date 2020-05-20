@@ -50,13 +50,14 @@ export default function CursoInput({ setter, materiaCodigo }) {
             {
                 !success ?
                     <AutoComplete
-                        size="large"
+                        size={"large"}
                         options={busqueda}
                         onSelect={(val, option) => { setCurso(option.curso); setSuccess(true) }}
                         notFoundContent={"no se encontró ningún resultado"}
-                        style={{ width: "100%" }}>
+                        style={{ width: "100%" }}
+                        autoFocus>
                         <Input.Search
-                            size="large"
+                            size={"large"}
                             placeholder="elegí un curso"
                             loading={loading}
                             addonBefore="Curso :" />

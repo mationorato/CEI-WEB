@@ -37,6 +37,10 @@ export default function Anuncio(props) {
                     border-radius: 0px;
                 }
 
+                div :global(h1){
+                    color: ${colors.white};
+                }
+
                 p{
                     margin-bottom: 0px;
                 }

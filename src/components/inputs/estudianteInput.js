@@ -45,7 +45,7 @@ export default function EstudianteInput({ setter, inputId = false, inputPadron =
                 !success ?
                     <Input.Search
                         loading={loading}
-                        size="large"
+                        size={"large"}
                         suffix={error && <CloseOutlined style={{ color: red[4] }} />}
                         placeholder="ingresá tu padrón"
                         onSearch={fetchEstudiante}
@@ -60,7 +60,7 @@ export default function EstudianteInput({ setter, inputId = false, inputPadron =
                                 <CloseOutlined className="clearBtn" onClick={clearInput} />
                             </>
                         }
-                        size="large"
+                        size={"large"}
                         value={`${estudiante.nombre} ${estudiante.apellido}`}
                         addonBefore={"Padrón : " + estudiante.padron} />
             }

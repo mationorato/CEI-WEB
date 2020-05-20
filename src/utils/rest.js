@@ -14,12 +14,23 @@ export const options = {
                 ApiKey: academica_key
             }
         },
-        POST: payload => ({
+        POST: data => ({
             method: 'POST',
             headers: {
-                ApiKey: academica_key
+                ApiKey: academica_key,
+                'Content-Type': 'application/json'
             },
-            body: payload
+            body: JSON.stringify(data)
+        })
+    },
+    general: {
+        GET: {
+            method: 'GET'
+        },
+        POST: (body, headers) => ({
+            method: 'POST',
+            headers,
+            body
         })
     }
 }
@@ -45,6 +56,7 @@ export const url = {
 
     //respuestas
     api_academica_respuestas: `${api_academica}/encuestasrespuestas`,
+    api_academica_respuestas_conmateria: `${api_academica}/encuestasrespuestas/conmateria`,
     api_academica_respuestas_id: (id) => `${api_academica}/encuestasrespuestas/${id}`,
     api_academica_respuestas_tiene: (encuesta_id, estudiante_id, materia_codigo) =>
         `${api_academica}/encuestasrespuestas/tienerespuesta/${encuesta_id}/${estudiante_id}/${materia_codigo}`
