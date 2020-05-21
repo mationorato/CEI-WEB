@@ -1,6 +1,7 @@
 FROM node:14-buster-slim
 ARG CeiApiUrl__Academica
 ARG CeiApiKey__Academica
+ARG NEXT_PUBLIC_reCAPTCHA_SITE
 ENV NODE_ENV production
 WORKDIR /usr/src/app
 COPY ["package.json", "package-lock.json*", "npm-shrinkwrap.json*", "./"]
