@@ -7,7 +7,7 @@ const anuncios = [
         fecha: "24 al 27 de mayo",
         color: colors.cerulean,
         principal: true,
-        link: "/encuestas/Cursada_Virtual_1C_2020",
+        link: "/encuestas/cursada_virtual",
         tipo: "encuesta"
     },
     {
