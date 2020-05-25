@@ -49,7 +49,6 @@ export default function EstudianteInput({ setter, inputId = false, inputPadron =
                         placeholder="ingresá tu padrón"
                         onSearch={fetchEstudiante}
                         addonBefore="Padrón : "
-                        autoFocus
                     /> :
                     <Input
                         prefix={<UserOutlined />}
