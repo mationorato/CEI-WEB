@@ -131,7 +131,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-    const paths = anuncios.map(anuncio => ({
+    const paths = anuncios.filter(a => a.tipo == "noticia").map(anuncio => ({
         params: { id: anuncio.id }
     }))
 

@@ -36,7 +36,7 @@ export default function Index({ anuncios }) {
                 </Row>
                 <Row>
                     {
-                        anuncios.filter(a => !a.principal).map(anuncio =>
+                        anuncios.filter(a => !a.principal && a.tipo == "noticia").map(anuncio =>
                             <div className="col-lg-4" key={anuncio.id}>
                                 <AnuncioLink anuncio={anuncio} />
                             </div>
