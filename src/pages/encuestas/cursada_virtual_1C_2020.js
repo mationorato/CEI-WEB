@@ -16,8 +16,9 @@ export default function ({ encuesta }) {
             <Head>
                 <title key="title">CEI UBA - Encuesta Cursada Virtual 1C 2020</title>
                 <meta property="og:title" key="og:title" content="Encuesta Cursada Virtual FIUBA 1C 2020" />
-                <meta property="og:description" key="og:description" content="LLená la encuesta para analizar como esta funcionando la cursada virtual en fiuba" />
+                <meta property="og:description" key="og:description" content="Completá la encuesta para ayudarnos a analizar como está funcionando la cursada virtual en Fiuba" />
                 <meta property="og:url" key="og:url" content="https://cei.fi.uba.ar/encuestas/cursada_virtual_1C_2020" />
+                <meta property="og:image" key="og:image" content="https://cei.fi.uba.ar/img/thum-encuesta-cursada-virtual.jpg" />
             </Head>
             <div>
                 <Jumbotron>
@@ -27,7 +28,7 @@ export default function ({ encuesta }) {
                             Encuesta {encuesta.nombre}
                         </h1>
                         <p className="lead">
-                            LLená la encuesta para analizar como esta funcionando la cursada virtual en fiuba
+                            Completá la encuesta para ayudarnos a analizar como está funcionando la cursada virtual en Fiuba
                         </p>
                         <br /><hr />
                     </Container>
@@ -38,7 +39,10 @@ export default function ({ encuesta }) {
                         Date.now() > encuesta.fecha_apertura && Date.now() < encuesta.fecha_cierre ?
                             <Encuesta encuesta={encuesta} /> :
                             <Alert variant="danger">
-                                La encuesta se encuentra cerrada :(
+                                <Alert.Heading>La encuesta se encuentra cerrada :(</Alert.Heading>
+                                Esta encuesta cerro el
+                                {" " + encuesta.fecha_cierre.toLocaleDateString("es-AR")} a las
+                                {" " + encuesta.fecha_cierre.toLocaleTimeString("es-AR")} hs
                             </Alert>
                     }
                 </Container>

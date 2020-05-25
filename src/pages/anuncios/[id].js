@@ -31,17 +31,20 @@ export default function Anuncio(props) {
                 </Container>
             </div>
             <style jsx>{`
-                div :global(.jumbotron){
-                    color: ${colors.white};
+                div :global(.jumbotron){                    
                     background-color: ${props.anuncio.color};
                     border-radius: 0px;
                 }
 
                 div :global(h1){
-                    color: ${colors.white};
+                    color: ${colors.black};
+                }
+                .lead{
+                    color: ${colors.cerulean};
                 }
 
                 p{
+                    color:${colors.gray};
                     margin-bottom: 0px;
                 }
 

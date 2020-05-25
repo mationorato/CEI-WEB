@@ -235,19 +235,21 @@ export default function Encuesta({ encuesta }) {
                                 loading={loadingEnviar}
                                 onClick={() => { setLoadingEnviar(true); recaptcha.current.execute() }}
                                 disabled={respuestasFaltantes != 0}>
-                                Enviar
-                                </Button>
+                                {!loadingEnviar ? "Enviar" : "Enviando"}
+                            </Button>
                         </>
                     }
                     {
                         respuestaValida &&
                         <Alert variant="success">
                             <Alert.Heading>La encuesta se envió con exito :)</Alert.Heading>
-                             Elegí otra materia que estes cursando para seguir colaborando.
-                             <br />
+                            Elegí otra materia que estes cursando para seguir colaborando.
+                            <br />
                             <i style={{ fontSize: "12px" }}>(Podés buscar otra materia haciendo click en las X)</i>
 
                         </Alert>
+
+
                     }
                     {
                         respuestaInvalida &&

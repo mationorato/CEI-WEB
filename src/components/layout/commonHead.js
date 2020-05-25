@@ -14,14 +14,14 @@ export default function CommonHead() {
             <meta name="keywords" content="fiuba,estudaintes ingeniería,ingeniería uba,uba,centro de estudiantes,cei" />
             <meta name="google-site-verification" content="6t2hDxsOpMM7QybXdCYkMUQz874vPVBe6A3CTkTp4nw" />
 
-            {/* Open Fraph */}
+            {/* Open Graph */}
             <meta property="og:title" key="og:title" content="CEI UBA" />
             <meta property="og:description" key="og:description" content="Centro de estudiantes de Ingeniería La Linea Recta" />
             <meta property="og:image" key="og:image" content="https://i.imgur.com/8UlV9Xg.jpg" />
             <meta property="og:url" key="og:url" content="https://cei.fi.uba.ar" />
             <meta property="og:image:type" key="og:image:type" content="image/jpeg" />
             <meta property="og:image:width" key="og:image:width" content="1200" />
-            <meta property="og:image:height" key="og:image:height" content="628" />
+            <meta property="og:image:height" key="og:image:height" content="630" />
             <meta property="og:type" key="og:type" content="article" />
             <meta property="fb:app_id" key="fb:app_id" content="138179346792288" />
 

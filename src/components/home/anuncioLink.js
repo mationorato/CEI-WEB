@@ -4,7 +4,7 @@ import colors from '../layout/colors';
 
 function AnuncioLink({ anuncio }) {
     return (
-        <div>
+        <>
             <Link href="anuncios/[id]" as={`anuncios/${anuncio.id}`}>
                 <a>
                     <Jumbotron>
@@ -14,27 +14,31 @@ function AnuncioLink({ anuncio }) {
                     </Jumbotron>
                 </a>
             </Link>
-
             <style jsx>{`
+
+                .lead{
+                    color: ${colors.cerulean};
+                }
                 a{
-                    color: ${colors.white}
+                    color: ${colors.black};
                 }
                 a:hover{
                     color: ${colors.white};
                     text-decoration: none;
                 }
                 p{
+                    color: gray;
                     margin-bottom: 0px;
                 }
                 h1{
-                    color: ${colors.white};
+                    color: ${colors.black};
                 }
-                div :global(.jumbotron){
+                a :global(.jumbotron){
                     background-color:${anuncio.color};
-                    padding: 2rem 2rem;
+                    padding: 2rem;
                 }
             `}</style>
-        </div>
+        </>
 
     )
 }
