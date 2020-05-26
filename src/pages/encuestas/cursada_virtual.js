@@ -15,8 +15,8 @@ export default function ({ encuesta }) {
         <Layout>
             <Head>
                 <title key="title">CEI UBA - Encuesta Cursada Virtual 1C 2020</title>
-                <meta property="og:title" key="og:title" content="Encuesta Cursada Virtual FIUBA 1C 2020" />
-                <meta property="og:description" key="og:description" content="Completá la encuesta para ayudarnos a analizar como está funcionando la cursada virtual en Fiuba" />
+                <meta property="og:title" key="og:title" content="Mejoremos la cursada virtual entre todos" />
+                <meta property="og:description" key="og:description" content="Entrá y completá la encuesta para ayudarnos a analizar como está funcionando la cursada virtual en Fiuba" />
                 <meta property="og:url" key="og:url" content="https://cei.fi.uba.ar/encuestas/cursada_virtual" />
                 <meta property="og:image" key="og:image" content="https://cei.fi.uba.ar/img/thum-encuesta-cursada-virtual-2.jpg" />
             </Head>
