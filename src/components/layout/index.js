@@ -22,6 +22,12 @@ export default function Layout(props) {
                     font-family: 'Inter', sans-serif;
                     background-color: ${Colors.white};
                 }
+                .resimg{
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 50%;
+                }
             `}</style>
         </main>
     )

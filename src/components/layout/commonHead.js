@@ -26,7 +26,7 @@ export default function CommonHead() {
             <meta property="fb:app_id" key="fb:app_id" content="138179346792288" />
 
             {/* Favicon */}
-            <link rel="shortcut icon" href="/img/favicon.png" />
+            <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
 
             {/* Fonts */}
             <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet" />

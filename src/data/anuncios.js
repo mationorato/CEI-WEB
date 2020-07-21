@@ -4,11 +4,20 @@ const anuncios = [
         id: "encuesta-cursada-virtual",
         titulo: "Encuesta Cursada Virtual 1C 2020",
         bajada: "Completá la encuesta para ayudarnos a analizar como está funcionando la cursada virtual en Fiuba",
-        fecha: "24 al 27 de mayo",
+        fecha: "del 24 de mayo al 31 de agosto",
         color: colors.cerulean,
         principal: true,
         link: "/encuestas/cursada_virtual",
         tipo: "encuesta"
+    },
+    {
+        id: "nuevo-calendario",
+        titulo: "Nuevo Calendario Académico",
+        bajada: "Se aprobó el nuevo calendario académico junto a la reglamentación de finales virtuales",
+        fecha: "21/7/2020",
+        color: colors.lgrey,
+        principal: false,
+        tipo: "noticia"
     },
     {
         id: "condicionales",
