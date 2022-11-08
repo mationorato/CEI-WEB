@@ -29,7 +29,7 @@
     "@fortawesome/react-fontawesome": "^0.1.9",
     "antd": "^4.2.2",
     "cross-env": "^7.0.2",
-    "next": "^9.4.1",
+    "next": "^13.0.2",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.13.1",
